@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Action">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home1_ico"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_navigation"
+            android:icon="@drawable/mapwaypoint1_ico"
+            android:title="Navigation" />
+        <item
+            android:id="@+id/nav_buses"
+            android:icon="@drawable/bus1_ico"
+            android:title="Live Buses" />
+        <item
+            android:id="@+id/nav_parking"
+            android:icon="@drawable/parking1_ico"
+            android:title="Parking Status" />
+        <item
+            android:id="@+id/nav_autohome"
+            android:icon="@drawable/home_automation1_ico"
+            android:title="Automated Home System" />
+        <item
+            android:id="@+id/nav_swachcity"
+            android:icon="@drawable/disposal1_ico"
+            android:title="Swach City" />
+    </group>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings1_ico"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_helpfeedbk"
+                android:icon="@drawable/help1_ico"
+                android:title="Help and Feedback" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share1_ico"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about1_ico"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zeus.ak95.splashtest.AutohomeFragment">
+   <RelativeLayout
+       android:background="@drawable/autsystem"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_below="@+id/toolbar"
+       >
+       <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:layout_alignParentBottom="true"
+           android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/autfrgbtn"
+        android:background="#235564"/>
+</RelativeLayout>
+</RelativeLayout>
